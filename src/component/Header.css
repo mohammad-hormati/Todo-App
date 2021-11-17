@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  min-height: 80px;
+  background-color: #373a36;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e6e2dd;
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+.header .btn {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #e6e2dd;
+  color: #373a36;
+  cursor: pointer;
+}
+
+.header .btn:hover {
+  opacity: 0.7;
+}

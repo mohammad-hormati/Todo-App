@@ -1,0 +1,48 @@
+.add-todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 50%;
+  height: 50px;
+  background-color: #373a36;
+  color: #e6e2dd;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 0 0.8rem;
+  font-size: 1.3rem;
+}
+
+form button {
+  width: 12%;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #373a36;
+  background-color: #e6e2dd;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  opacity: 0.8;
+}
+
+.error span {
+  color: #e6e2dd;
+  font-size: 1.3rem;
+  font-weight: bold;
+}

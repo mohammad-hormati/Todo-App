@@ -1,0 +1,58 @@
+.todo-list {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #373a36;
+  width: 40%;
+  margin-bottom: 1rem;
+  padding: 1.3rem 1rem;
+  color: #e6e2dd;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+.todo-done {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6e2dd;
+  width: 40%;
+  margin-bottom: 1rem;
+  padding: 1.3rem 1rem;
+  color: #373a36;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+.todo-list .todo .icon,
+.todo-list .todo-done .icon {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.trash:hover,
+.done:hover {
+  cursor: pointer;
+}
+
+.todo-list .todo .icon .trash:hover,
+.todo-list .todo-done .icon .trash:hover {
+  color: rgb(223, 47, 47);
+}
+
+.todo-list .todo .icon .done:hover,
+.todo-list .todo-done .icon .done:hover {
+  color: rgb(0, 197, 223);
+}
